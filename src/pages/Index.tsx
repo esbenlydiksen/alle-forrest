@@ -95,13 +95,18 @@ const Index = () => {
 
 
             <div className="mt-10 flex flex-wrap gap-3 text-xs uppercase tracking-widest">
-              {["Spotify", "Apple Music", "Tidal", "Bandcamp"].map((s) => (
+              {[
+                { name: "Spotify", url: "https://open.spotify.com/album/6SXdhvAAEhrkkCVjDbXMd3" },
+                { name: "Apple Music", url: "https://itunes.apple.com/album/id/1895031976" },
+              ].map((s) => (
                 <a
-                  key={s}
-                  href="#"
+                  key={s.name}
+                  href={s.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-5 py-3 rounded-full border border-brand-cream/20 hover:border-brand-orange hover:text-brand-orange-light transition-colors"
                 >
-                  {s}
+                  {s.name}
                 </a>
               ))}
             </div>
