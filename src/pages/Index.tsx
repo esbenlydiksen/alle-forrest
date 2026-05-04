@@ -69,9 +69,6 @@ const Index = () => {
             <h2 className="font-display text-6xl md:text-8xl leading-none text-brand-cream">
               KATALOGET
             </h2>
-            <p className="mt-6 text-brand-cream/75 text-lg max-w-md">
-              Otte sange om landskaber, længsel og lange aftener. Indspillet i en gammel lade i Sønderjylland over en sommer.
-            </p>
 
 
             <div className="mt-10 flex flex-wrap gap-3 text-xs uppercase tracking-widest">
