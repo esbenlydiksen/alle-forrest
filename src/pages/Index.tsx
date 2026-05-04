@@ -47,8 +47,8 @@ const Index = () => {
             Et nyt dansk lydlandskab — varmt, jordnært og fyldt med horisont.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-            <Button size="lg" className="bg-brand-brown-deep text-brand-cream hover:bg-brand-brown rounded-full px-8 h-12 uppercase tracking-widest text-xs">
-              Lyt til Kataloget
+            <Button asChild size="lg" className="bg-brand-brown-deep text-brand-cream hover:bg-brand-brown rounded-full px-8 h-12 uppercase tracking-widest text-xs">
+              <a href="#album">Lyt til Kataloget</a>
             </Button>
           </div>
         </div>
