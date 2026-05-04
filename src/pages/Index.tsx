@@ -104,14 +104,7 @@ const Index = () => {
           </div>
           <div className="md:col-span-3 space-y-5 text-brand-cream/90 text-lg leading-relaxed">
             <p>
-              Alle Forrest er en dansk kvartet, der bygger sange ud af stille observationer — træer, marker, sene tog hjem.
-            </p>
-            <p>
-              Med skæve harmonier, varme guitarer og en stemme der lægger sig tæt op ad lytteren, tegner bandet et landskab
-              man kan gå ind i og blive lidt.
-            </p>
-            <p className="text-sm uppercase tracking-widest text-brand-cream/60 pt-4">
-              Mads · Sigrid · Jonas · Alma
+              Alle Forrest er en dansk trio bestående af Anders Basby, Uffe Kasper Rasmussen og Esben Lydiksen.
             </p>
           </div>
         </div>
