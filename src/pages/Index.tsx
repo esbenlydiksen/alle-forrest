@@ -93,21 +93,6 @@ const Index = () => {
               Otte sange om landskaber, længsel og lange aftener. Indspillet i en gammel lade i Sønderjylland over en sommer.
             </p>
 
-            <ol className="mt-10 divide-y divide-brand-cream/10 border-y border-brand-cream/10">
-              {tracks.map((t, i) => (
-                <li key={t} className="flex items-center gap-6 py-3 group">
-                  <span className="font-display text-2xl text-brand-orange w-8 tabular-nums">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <span className="flex-1 text-brand-cream group-hover:text-brand-orange-light transition-colors">
-                    {t}
-                  </span>
-                  <span className="text-xs text-brand-cream/50 tabular-nums">
-                    {`0${Math.floor(Math.random() * 2) + 3}:${String(Math.floor(Math.random() * 60)).padStart(2, "0")}`}
-                  </span>
-                </li>
-              ))}
-            </ol>
 
             <div className="mt-10 flex flex-wrap gap-3 text-xs uppercase tracking-widest">
               {["Spotify", "Apple Music", "Tidal", "Bandcamp"].map((s) => (
