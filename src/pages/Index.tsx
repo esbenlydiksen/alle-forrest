@@ -67,9 +67,6 @@ const Index = () => {
             <Button size="lg" className="bg-brand-brown-deep text-brand-cream hover:bg-brand-brown rounded-full px-8 h-12 uppercase tracking-widest text-xs">
               Lyt til Kataloget
             </Button>
-            <Button size="lg" variant="outline" className="border-brand-brown-deep text-brand-brown-deep hover:bg-brand-brown-deep hover:text-brand-cream rounded-full px-8 h-12 uppercase tracking-widest text-xs bg-transparent">
-              Se koncerter
-            </Button>
           </div>
         </div>
       </section>
