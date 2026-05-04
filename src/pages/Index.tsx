@@ -43,9 +43,6 @@ const Index = () => {
           <h1 className="font-display text-7xl sm:text-8xl md:text-[10rem] leading-none text-brand-brown-deep tracking-wide text-balance">
             ALLE FORREST
           </h1>
-          <p className="mt-8 max-w-xl mx-auto text-lg text-brand-brown-deep/80">
-            Et nyt dansk lydlandskab — varmt, jordnært og fyldt med horisont.
-          </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <Button asChild size="lg" className="bg-brand-brown-deep text-brand-cream hover:bg-brand-brown rounded-full px-8 h-12 uppercase tracking-widest text-xs">
               <a href="#album">Lyt til Kataloget</a>
