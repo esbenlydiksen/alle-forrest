@@ -13,7 +13,7 @@ const Index = () => {
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium uppercase tracking-widest text-brand-brown-deep">
             <a href="#album" className="hover:text-brand-orange-deep transition-colors">Album</a>
-            <a href="#koncerter" className="hover:text-brand-orange-deep transition-colors">Koncerter</a>
+            
             <a href="#om" className="hover:text-brand-orange-deep transition-colors">Om</a>
             <a href="#kontakt" className="hover:text-brand-orange-deep transition-colors">Kontakt</a>
           </div>
