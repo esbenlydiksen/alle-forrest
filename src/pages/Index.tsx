@@ -122,7 +122,7 @@ const Index = () => {
         </div>
         <div className="container mt-12 pt-6 border-t border-brand-cream/10 text-xs text-brand-cream/50 flex justify-between">
           <span>© 2026 Alle Forrest</span>
-          <span>Made with care i Danmark</span>
+          
         </div>
       </footer>
     </div>
