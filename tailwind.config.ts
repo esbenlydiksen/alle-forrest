@@ -13,7 +13,25 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ["'Bebas Neue'", "Impact", "sans-serif"],
+        body: ["'Inter'", "system-ui", "sans-serif"],
+      },
+      backgroundImage: {
+        "gradient-hills": "var(--gradient-hills)",
+      },
+      boxShadow: {
+        warm: "var(--shadow-warm)",
+      },
       colors: {
+        brand: {
+          cream: "hsl(var(--cream))",
+          brown: "hsl(var(--brown))",
+          "brown-deep": "hsl(var(--brown-deep))",
+          orange: "hsl(var(--orange))",
+          "orange-deep": "hsl(var(--orange-deep))",
+          "orange-light": "hsl(var(--orange-light))",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
