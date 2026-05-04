@@ -1,23 +1,6 @@
 import albumCover from "@/assets/kataloget-cover.jpeg";
 import { Button } from "@/components/ui/button";
 
-const tracks = [
-  "Morgenlys",
-  "Bakkerne",
-  "Kataloget",
-  "Stille Vand",
-  "Mellem Træerne",
-  "Hjem",
-  "Vinternat",
-  "Sidste Sang",
-];
-
-const shows = [
-  { date: "14. MAJ", city: "København", venue: "VEGA" },
-  { date: "22. MAJ", city: "Aarhus", venue: "Train" },
-  { date: "05. JUN", city: "Odense", venue: "Posten" },
-  { date: "19. JUN", city: "Aalborg", venue: "Studenterhuset" },
-];
 
 const Index = () => {
   return (
