@@ -100,7 +100,7 @@ const Index = () => {
         <div className="container grid md:grid-cols-5 gap-12 items-center relative z-10">
           <div className="md:col-span-2">
             <p className="text-xs font-semibold uppercase tracking-[0.4em] text-brand-cream/70 mb-4">Om bandet</p>
-            <h2 className="font-display text-5xl md:text-7xl">EN VARM HORISONT</h2>
+            <h2 className="font-display text-5xl md:text-7xl">ALLE FORREST</h2>
           </div>
           <div className="md:col-span-3 space-y-5 text-brand-cream/90 text-lg leading-relaxed">
             <p>
