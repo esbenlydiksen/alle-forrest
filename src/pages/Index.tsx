@@ -112,7 +112,7 @@ const Index = () => {
 
       {/* Footer / contact */}
       <footer id="kontakt" className="bg-brand-brown-deep text-brand-cream py-16">
-        <div className="container grid md:grid-cols-3 gap-10">
+        <div className="container grid md:grid-cols-2 gap-10">
           <div>
             <p className="font-display text-3xl tracking-wider">ALLE FORREST</p>
             <p className="text-brand-cream/60 mt-2 text-sm">Kataloget · Ude nu</p>
@@ -121,14 +121,6 @@ const Index = () => {
             <p className="uppercase tracking-widest text-brand-orange-light text-xs mb-3">Kontakt</p>
             <p>Booking: <a className="hover:text-brand-orange-light" href="mailto:booking@alleforrest.dk">booking@alleforrest.dk</a></p>
             <p>Presse: <a className="hover:text-brand-orange-light" href="mailto:presse@alleforrest.dk">presse@alleforrest.dk</a></p>
-          </div>
-          <div className="text-sm space-y-2">
-            <p className="uppercase tracking-widest text-brand-orange-light text-xs mb-3">Følg</p>
-            <div className="flex gap-4">
-              {["Instagram", "YouTube", "Spotify"].map((s) => (
-                <a key={s} href="#" className="hover:text-brand-orange-light transition-colors">{s}</a>
-              ))}
-            </div>
           </div>
         </div>
         <div className="container mt-12 pt-6 border-t border-brand-cream/10 text-xs text-brand-cream/50 flex justify-between">
