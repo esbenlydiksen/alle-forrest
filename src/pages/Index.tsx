@@ -1,23 +1,6 @@
 import albumCover from "@/assets/kataloget-cover.jpeg";
 import { Button } from "@/components/ui/button";
 
-const tracks = [
-  "Morgenlys",
-  "Bakkerne",
-  "Kataloget",
-  "Stille Vand",
-  "Mellem Træerne",
-  "Hjem",
-  "Vinternat",
-  "Sidste Sang",
-];
-
-const shows = [
-  { date: "14. MAJ", city: "København", venue: "VEGA" },
-  { date: "22. MAJ", city: "Aarhus", venue: "Train" },
-  { date: "05. JUN", city: "Odense", venue: "Posten" },
-  { date: "19. JUN", city: "Aalborg", venue: "Studenterhuset" },
-];
 
 const Index = () => {
   return (
@@ -30,7 +13,7 @@ const Index = () => {
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium uppercase tracking-widest text-brand-brown-deep">
             <a href="#album" className="hover:text-brand-orange-deep transition-colors">Album</a>
-            <a href="#koncerter" className="hover:text-brand-orange-deep transition-colors">Koncerter</a>
+            
             <a href="#om" className="hover:text-brand-orange-deep transition-colors">Om</a>
             <a href="#kontakt" className="hover:text-brand-orange-deep transition-colors">Kontakt</a>
           </div>
@@ -114,35 +97,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Shows */}
-      <section id="koncerter" className="py-24 md:py-32 bg-brand-cream">
-        <div className="container">
-          <div className="flex items-end justify-between mb-12 flex-wrap gap-4">
-            <h2 className="font-display text-5xl md:text-7xl text-brand-brown-deep">KONCERTER</h2>
-            <p className="text-brand-brown/70 max-w-sm">Forår &amp; sommer 2026 — Kataloget Tour</p>
-          </div>
-          <ul className="divide-y divide-brand-brown-deep/15 border-y border-brand-brown-deep/15">
-            {shows.map((s) => (
-              <li key={s.date} className="grid grid-cols-12 items-center py-6 gap-4 group">
-                <span className="col-span-3 md:col-span-2 font-display text-2xl md:text-3xl text-brand-orange-deep">
-                  {s.date}
-                </span>
-                <span className="col-span-5 md:col-span-6 text-lg md:text-xl text-brand-brown-deep">
-                  {s.city} <span className="text-brand-brown/60">— {s.venue}</span>
-                </span>
-                <span className="col-span-4 text-right">
-                  <a
-                    href="#"
-                    className="inline-block text-xs uppercase tracking-widest px-5 py-3 rounded-full border border-brand-brown-deep text-brand-brown-deep hover:bg-brand-brown-deep hover:text-brand-cream transition-colors"
-                  >
-                    Køb billet
-                  </a>
-                </span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
 
       {/* About */}
       <section id="om" className="py-24 md:py-32 bg-brand-orange-deep text-brand-cream grain relative overflow-hidden">
