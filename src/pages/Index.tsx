@@ -75,6 +75,7 @@ const Index = () => {
               {[
                 { name: "Spotify", url: "https://open.spotify.com/album/6SXdhvAAEhrkkCVjDbXMd3" },
                 { name: "Apple Music", url: "https://itunes.apple.com/album/id/1895031976" },
+                { name: "YouTube", url: "https://youtube.com/playlist?list=OLAK5uy_ntmu-I_Ar8hiHQ1s5FrRegOrSUbGBsYuQ&si=s6sDm2VVDaJjDqCQ" },
               ].map((s) => (
                 <a
                   key={s.name}
