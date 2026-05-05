@@ -116,8 +116,7 @@ const Index = () => {
           </div>
           <div className="text-sm space-y-2">
             <p className="uppercase tracking-widest text-brand-orange-light text-xs mb-3">Kontakt</p>
-            <p>Booking: <a className="hover:text-brand-orange-light" href="mailto:booking@alleforrest.dk">booking@alleforrest.dk</a></p>
-            <p>Presse: <a className="hover:text-brand-orange-light" href="mailto:presse@alleforrest.dk">presse@alleforrest.dk</a></p>
+            <p><a className="hover:text-brand-orange-light" href="mailto:kontakt@alleforrest.dk">kontakt@alleforrest.dk</a></p>
           </div>
         </div>
         <div className="container mt-12 pt-6 border-t border-brand-cream/10 text-xs text-brand-cream/50 flex justify-between">
